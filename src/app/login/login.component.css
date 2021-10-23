@@ -1,0 +1,70 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    
+    position: absolute;
+    top:18px;
+
+}
+
+.center form{
+    
+    
+    margin-top: 5%;
+    padding:80px;
+    box-shadow: -3px -3px 16px 0px rgba(0,0,0,0.57);
+-webkit-box-shadow: -3px -3px 16px 0px rgba(0,0,0,0.57);
+-moz-box-shadow: -3px -3px 16px 0px rgba(0,0,0,0.57);
+}
+
+.email{
+    display: grid;
+    align-content: space-evenly;
+    justify-content: start;
+    align-items: center;
+    justify-items: start;
+    
+}
+.email input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.password{
+    display: grid;
+    align-content: space-evenly;
+    justify-content: start;
+    align-items: center;
+    justify-items: start;
+}
+.password input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 10%;
+    margin-left: 5%;
+    padding: 10px 10px;
+    font-size: 12px;
+    background: beige;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    border:1px solid blue;
+    background-color: black;
+    color:white;
+}
